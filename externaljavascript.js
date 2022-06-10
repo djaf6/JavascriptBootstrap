@@ -20,7 +20,9 @@ $(document).ready(function(){
        
     });
 
-   
+    $("#hide").click(function(){
+      alert("The world may never know");
+  });
 
     $("#divbutton").html("Click add a border");
     $("#divbutton").on("click", function( event ) {
